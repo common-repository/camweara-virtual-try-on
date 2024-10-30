@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a:focus,
+a:active {
+  box-shadow: none;
+  outline: none;
+}
+.tab-container {
+  background: #f6f6f7;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.tab-container .nav {
+  background-color: #fff;
+  padding: 30px 30px;
+  gap: 50px;
+  margin-bottom: 0;
+}
+.tab-container .nav .nav-item .nav-link {
+  color: #c3c3c3;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: transparent;
+}
+.tab-container .nav .nav-item .nav-link span {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 18px;
+}
+.tab-container .nav .nav-item .nav-link.active,
+.tab-container .nav .nav-item .nav-link:hover {
+  color: #0b6dff;
+}
+.tab-container .nav .nav-item .nav-link:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+.tab-container .nav .nav-item .nav-link.active span,
+.tab-container .nav .nav-item .nav-link:hover span {
+  border-color: #0b6dff;
+}
+.tab-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.btnNext,
+.btnPrevious {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 6px;
+  padding: 0 26px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  max-width: 168px;
+}
+.btnNext:hover,
+.btnPrevious:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+.btnNext {
+  background-color: #0050c8;
+  color: #fff;
+  margin-left: auto;
+}
+.btnNext span {
+  margin-left: 12px;
+}
+.btnPrevious {
+  border-color: #0050c8;
+  color: #0050c8;
+}
+.btnPrevious span {
+  margin-right: 12px;
+}
+.tab-content .container {
+  background-color: #fff;
+  padding: 0 44px;
+}
+.uploadimage-video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 26px;
+}
+
+.uploadimage-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.go-dashboard {
+  max-width: 272px;
+  width: 100%;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #6366ff 0%, #44da64 100%);
+  text-decoration: none;
+  display: block;
+  margin: 32px auto 0;
+  text-align: center;
+}
+.go-dashboard:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+.go-dashboard:focus {
+  color: #fff;
+}
+
+.uploadimage-content ol li,
+.method-1 ol li,
+.method-2 ol li {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0.18px;
+}
+.method-1 strong,
+.method-2 strong {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0.18px;
+}
+.uploadimage-content ol li a,
+.method-1 ol li a,
+.method-2 ol li a {
+  color: #254ae7;
+  text-decoration-line: underline;
+}
+.uploadimage-content ol li a:hover,
+.method-1 ol li a:hover,
+.method-2 ol li a:hover {
+  text-decoration: none;
+}
+.contactus .row {
+  align-items: center;
+}
+.contactus-content {
+  text-align: center;
+}
+.contactus-image-box {
+  text-align: center;
+}
+.contactus-image-box img {
+  max-width: 100%;
+}
+.contactus-content h4 {
+  color: #000;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+.contactus-content p {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.contactus-content .go-dashboard {
+  padding: 10px 18px;
+  font-size: 22px;
+  font-weight: 600;
+  background: #0050c8;
+  margin-top: 70px;
+}
+.pricingplans .title {
+  margin-bottom: 30px;
+}
+.pricingplans .title strong {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.pricingplans .title span {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #0b2d07;
+  background-color: #ebff9e;
+  box-shadow: 0px 2px 0px 4px #89efab;
+  padding: 6px 15px;
+}
+.pricingplans-card {
+  padding: 20px 15px;
+  border-radius: 16px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  height: 100%;
+}
+.pricingplans-card .pricingplans-header .plan {
+  display: block;
+  color: #c3c3c3;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  padding-bottom: 30px;
+}
+.pricingplans-card .pricingplans-header .price {
+  display: block;
+  color: #000;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e5e4;
+  margin-bottom: 20px;
+}
+.pricingplans-boby ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pricingplans-boby ul li {
+  color: #c3c3c3;
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.upgrade-button a {
+  max-width: 70%;
+  width: 100%;
+  border: 1px solid #0050c8;
+  color: #0050c8;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 12px;
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+  border-radius: 6px;
+}
+.upgrade-button a:hover {
+  background-color: #0050c8;
+  color: #fff;
+}
+
+/* -------------------------------------------- Responsive style ------------------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+  .go-dashboard {
+    max-width: 260px;
+    padding: 16px 30px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .tab-container .nav {
+    padding: 20px 36px;
+    gap: 30px;
+  }
+  .tab-container .nav .nav-item .nav-link {
+    font-size: 20px;
+  }
+  .tab-container .nav .nav-item .nav-link span {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    font-size: 16px;
+  }
+  .uploadimage-content ol li,
+  .method-1 ol li,
+  .method-2 ol li {
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .go-dashboard {
+    max-width: 240px;
+    padding: 12px 30px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .pricingplans .row {
+    row-gap: 30px;
+  }
+  .contactus-content h4 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 26px;
+  }
+  .contactus-content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .contactus-content .go-dashboard {
+    padding: 10px 18px;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .tab-container .nav {
+    padding: 20px 20px;
+    gap: 22px;
+  }
+  .tab-container .nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+  .tab-container .nav .nav-item .nav-link span {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .uploadimage-content {
+    margin-top: 50px;
+  }
+  .go-dashboard {
+    max-width: 220px;
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .btnNext,
+  .btnPrevious {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tab-container .container {
+    padding: 0;
+  }
+  .tab-container {
+    background-color: #fff;
+  }
+  .tab-container .nav {
+    background-color: #f6f6f7;
+    flex-wrap: nowrap;
+    max-width: 500px;
+    width: 100%;
+    overflow: scroll;
+  }
+  .tab-container .nav .nav-item .nav-link {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  .tab-container .nav .nav-item .nav-link span {
+    width: 38px;
+    height: 38px;
+    margin-right: 18px;
+    font-size: 22px;
+  }
+  .tab-content {
+    padding: 0 16px;
+  }
+  .uploadimage-video {
+    padding-top: 60.25%;
+    border-radius: 18px;
+  }
+  .go-dashboard {
+    max-width: 240px;
+    padding: 12px 30px;
+  }
+  .btnNext,
+  .btnPrevious {
+    font-size: 13px;
+    line-height: 26px;
+    padding: 0 15px;
+    max-width: 80px;
+    height: 34px;
+  }
+  .btnNext span img,
+  .btnPrevious span img {
+    width: 20px;
+  }
+  .btnNext span {
+    margin-left: 6px;
+  }
+  .uploadimage-content ol li,
+  .method-1 ol li,
+  .method-2 ol li {
+    font-size: 14px;
+    line-height: 36px;
+  }
+  .pricingplans .title strong {
+    font-size: 20px;
+  }
+  .pricingplans .title span {
+    font-size: 14px;
+    padding: 6px 15px;
+  }
+  .pricingplans-card .pricingplans-header .plan {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .pricingplans-card .pricingplans-header .price {
+    font-size: 18px;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+  }
+  .upgrade-button a {
+    max-width: 100%;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .contactus-content p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .contactus-content .go-dashboard {
+    padding: 16px 18px;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .tab-footer {
+    margin-top: 60px;
+  }
+  .contactus-content h4 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 36px;
+  }
+}
